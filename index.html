@@ -8,7 +8,7 @@
         <h2>Contact Details</h2>
         <br/>
         <h3>Name:</h3>
-        <p>Jari Törmälehto</p>
+        <p>Jari T&ouml;rm&auml;lehto</p>
         <h3>Age:</h3>
         <p>20 right now.</p>
         <h3>Occupation:</h3>
@@ -28,17 +28,32 @@
 		<form>
 		<label name="first-name">First name:</label>
 		<input name="first-name" type="text"/>
-		<br>
+	<br>
 		<label name="last-name">Last name:</label>
 		<input name="last-name" type="text"/>
-		<br>
+	<br>
 		<label name="password">Password</label>
 		<input name="password" type="password">
-		<br>
+	<br>
+	<br>
+			<label>Skill level</label>
+			<br>
+			<input type="radio" name="skill value="beginner" checked>beginner</input>
+			<input type="radio" name="skill value="intermediate" checked>intermediate</input>
+			<input type="radio" name="skill value="expert" checked>expert</input>
+	<br>
+	<br>
 		<label name="gender">gender</label>
-		<select name="gender">
-			<option value="male">male</option>
-			<option value="female">Female</option>
-		</select>
+			<select name="gender">
+				<option value="male">male</option>
+				<option value="female">Female</option>
+				<option value="confused">Confused</option>
+			</select>
+		<br>
+		<br>
+		<label name="comments">Comments</label>
+		<br>
+		<br>
+		<textarea name="comments" rows="5" cols="15">wazabiii bazabii bazooka cazooka</textarea>
     </body>
 </html>
